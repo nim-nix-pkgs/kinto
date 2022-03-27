@@ -11,6 +11,7 @@
   inputs.src-Kinto-master.ref   = "refs/heads/master";
   inputs.src-Kinto-master.owner = "OpenSystemsLab";
   inputs.src-Kinto-master.repo  = "kinto.nim";
+  inputs.src-Kinto-master.dir   = "";
   inputs.src-Kinto-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
